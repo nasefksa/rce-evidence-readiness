@@ -1,0 +1,13 @@
+{
+  "id": "EVT-0342",
+  "eventClass": "late_information",
+  "awarenessDate": "2026-01-20",
+  "occurredDate": "2026-01-20",
+  "evidence": [
+    { "type": "rfi_or_request_log", "present": true },
+    { "type": "drawing_register", "present": true },
+    { "type": "programme_activity", "present": true },
+    { "type": "workfront_photo", "present": false },
+    { "type": "standby_record", "present": false }
+  ]
+}

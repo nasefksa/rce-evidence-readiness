@@ -1,0 +1,28 @@
+{
+  "name": "@rce/evidence-readiness",
+  "version": "0.1.0",
+  "description": "Evidence Readiness — evidence-scoring engine for the Construction Reality Contract Engine (RCE). Scores how well a site event is documented and flags which missing items can still be obtained.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist", "src"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "demo": "tsx examples/demo.ts"
+  },
+  "keywords": ["construction", "nec4", "evidence", "quantity-surveying", "records", "rce"],
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0"
+  }
+}

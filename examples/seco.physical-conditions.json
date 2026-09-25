@@ -1,0 +1,13 @@
+{
+  "id": "EVT-0356",
+  "eventClass": "unforeseen_physical_conditions",
+  "awarenessDate": "2026-02-28",
+  "occurredDate": "2026-02-28",
+  "evidence": [
+    { "type": "condition_photo", "present": true },
+    { "type": "record_drawing_survey", "present": true },
+    { "type": "site_diary", "present": true },
+    { "type": "plant_labour_standby", "present": true },
+    { "type": "third_party_confirmation", "present": false }
+  ]
+}
