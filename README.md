@@ -238,7 +238,7 @@ examples/                runnable demo + sample SECOs
 - Per-client / per-contract requirement profiles
 - Configurable decay curves (partial-credit rather than hard cut-off)
 - Evidence-type synonyms / mapping to source systems (photos, RFIs, diaries)
-- Assisted extraction to auto-tick items (business plan §5.3, Stage 2)
+- Assisted extraction to auto-tick items 
 
 ## Important boundary
 
