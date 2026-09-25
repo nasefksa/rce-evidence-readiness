@@ -15,18 +15,17 @@
 
 1. [What it is](#what-it-is)
 2. [Why it matters](#why-it-matters)
-3. [How it works](#how-it-works)
-4. [Install](#install)
-5. [Quick start](#quick-start)
-6. [API reference](#api-reference)
-7. [Default requirements](#default-requirements)
-8. [Configuring requirements](#configuring-requirements)
-9. [Integrating into the platform](#integrating-into-the-platform)
-10. [Testing & demo](#testing--demo)
-11. [Project structure](#project-structure)
-12. [Roadmap](#roadmap)
-13. [Important boundary](#important-boundary)
-14. [License](#license)
+3. [Install](#install)
+4. [Quick start](#quick-start)
+5. [API reference](#api-reference)
+6. [Default requirements](#default-requirements)
+7. [Configuring requirements](#configuring-requirements)
+8. [Integrating into the platform](#integrating-into-the-platform)
+9. [Testing & demo](#testing--demo)
+10. [Project structure](#project-structure)
+11. [Roadmap](#roadmap)
+12. [Important boundary](#important-boundary)
+13. [License](#license)
 
 ---
 
@@ -47,15 +46,6 @@ marks every gap as **still obtainable** or **likely lost**, and recommends an
 action. This is the engine behind the "Evidence Readiness" surface in the RCE
 business plan (§4.2).
 
-## Why it matters
-
-| Business-plan reference | How this engine delivers it |
-| --- | --- |
-| §2.4 — delayed recognition degrades evidence | Distinguishes closeable gaps from lost ones |
-| §4.2 — Evidence Readiness | This is that feature, as deterministic code |
-| §5.3 — "rules first" (Stage 1) | Transparent scoring, no training data required |
-| §6.3 / §16 — defensible IP | The evidence methodology is a proprietary asset |
-| §21 — false negatives / missed events | Surfaces what to obtain while it still exists |
 
 ## How it works
 
